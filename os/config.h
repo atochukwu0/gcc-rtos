@@ -1,6 +1,7 @@
 #ifndef OS_CONFIG_H
 #define OS_CONFIG_H
-
+/*Application specific definitions header*/
+#include "user_config.h"
 // unit: MHz
 #define CONFIG_SYSCLK 72
 // unit: us

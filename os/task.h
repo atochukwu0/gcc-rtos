@@ -11,7 +11,7 @@ typedef struct {
     void *stack;
     uint32_t delay_ticks;
 } Task_Control_Block_t;
-
+/*
 extern Task_Control_Block_t tcb_list[];
 
 extern Task_Control_Block_t *current_TCB;
@@ -21,10 +21,8 @@ extern int next_task_id;
 extern int is_first_switch_task;
 
 extern uint32_t now_tick;
+*/
 
-
-// proc from asm
-extern void switch_task(void);
 
 // proc from c
 extern void init_task(void);
