@@ -39,4 +39,10 @@ extern void delay(uint32_t us);
 
 extern void task_idle(void);
 
+#ifdef port_yield
+#define task_yield port_yield
+#else
+#error "port_yield is not defined!"
+#endif
+
 #endif //OS_TASK_H

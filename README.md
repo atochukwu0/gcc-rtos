@@ -1,2 +1,2 @@
-# ez-rtos
-a simple real-time operating system
+# gcc-rtos
+multple task framework

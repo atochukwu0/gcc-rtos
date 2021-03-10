@@ -85,7 +85,7 @@ int create_task(void *function, void *arguements, stack_t *stack, int stack_size
 
 void switch_task() {
 	// set pendsv
-	SCB->ICSR |= SCB_ICSR_PENDSVSET_Msk;
+	SCB->ICSR |= SCB_ICSR_PENDSVSET_Msk;a
 }
 
 void SysTick_Handler(void) {
